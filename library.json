@@ -1,5 +1,5 @@
 {
-  "title": "Goals assessment page",
+  "title": "Goals assessment page (XR)",
   "description": "A page where you can evaluate your goals.",
   "majorVersion": 1,
   "minorVersion": 4,
@@ -11,15 +11,15 @@
   },
   "author": "Joubel",
   "license": "MIT",
-  "machineName": "H5P.GoalsAssessmentPage",
+  "machineName": "H5P.GoalsAssessmentPageXR",
   "preloadedCss": [
     {
-      "path": "goals-assessment-page.css"
+      "path": "goals-assessment-page-xr.css"
     }
   ],
   "preloadedJs": [
     {
-      "path": "goals-assessment-page.js"
+      "path": "goals-assessment-page-xr.js"
     }
   ]
 }

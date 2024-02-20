@@ -9,7 +9,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
   "use strict";
 
   // CSS Classes:
-  var MAIN_CONTAINER = 'h5p-goals-assessment-page';
+  var MAIN_CONTAINER = 'h5p-goals-assessment-page-xr';
 
   /**
    * Helper for enabling tabbing
@@ -342,7 +342,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
     // Setup buttons
     var $ratingButtons = $goal.find('[role="radio"]');
     makeRadiosAccessible($ratingButtons);
-    H5P.DocumentationTool.handleButtonClick($ratingButtons, function () {
+    H5P.DocumentationToolXR.handleButtonClick($ratingButtons, function () {
       var $currentElement = $(this);
 
       uncheck($ratingButtons);

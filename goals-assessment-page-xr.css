@@ -1,4 +1,4 @@
-.h5p-goals-assessment-page {
+.h5p-goals-assessment-page-xr {
   padding: 0.5em 1em;
   margin-bottom: 1em;
 }
@@ -152,7 +152,7 @@
   clear: both;
 }
 
-.h5p-goals-assessment-page .goals-assessment-title {
+.h5p-goals-assessment-page-xr .goals-assessment-title {
   padding: 0.5em 0;
   margin-bottom: 0.5em;
   font-size: 18px;
@@ -160,6 +160,6 @@
   color: #333;
 }
 
-.h5p-goals-assessment-page .goals-assessment-description {
+.h5p-goals-assessment-page-xr .goals-assessment-description {
   padding: 1em 0em;
 }
