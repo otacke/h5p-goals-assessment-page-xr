@@ -5,7 +5,7 @@ var H5P = H5P || {};
  * Goals Assessment Page module
  * @external {jQuery} $ H5P.jQuery
  */
-H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
+H5P.GoalsAssessmentPageXR = (function ($, EventDispatcher) {
   "use strict";
 
   // CSS Classes:
@@ -285,7 +285,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
 
   /**
    * Create goal assessment element from goal instance
-   * @param {H5P.GoalsPage.GoalInstance} goalInstance Goal instance
+   * @param {H5P.GoalsPageXR.GoalInstance} goalInstance Goal instance
    */
   GoalsAssessmentPage.prototype.createGoalAssessmentElement = function (goalInstance) {
     var self = this;
@@ -430,7 +430,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
       'en-US': self.params.title
     };
     definition.extensions = {
-      'https://h5p.org/x-api/h5p-machine-name': 'H5P.GoalsAssessmentPage'
+      'https://h5p.org/x-api/h5p-machine-name': 'H5P.GoalsAssessmentPageXR'
     };
 
     return definition;
